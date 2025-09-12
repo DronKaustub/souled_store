@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.836);
+    padding: 10px 20px;
+}
+.leftSubHeader{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.centerLogo{
+    padding: 4px;
+     width: 10%;;
+}
+.rightSubHeader{
+    width: 45%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.logo {
+  height: 100%;
+  cursor: pointer;
+}
+.textBox{
+    width: 45%;
+    height: 60%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    padding: 5px 15px;
+}
+
+.textBox input{
+    border: none;
+    outline: none;
+}
