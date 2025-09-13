@@ -6,6 +6,7 @@ import Women from './Pages/Women';
 import Sneakers from './Pages/Sneakers';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let allRoutes=createBrowserRouter(

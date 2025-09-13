@@ -1,0 +1,56 @@
+const footerLinks = {
+    "NEED HELP": [
+        { label: "Contact Us", href: "/contact" },
+        { label: "Track Order", href: "/track-order" },
+        { label: "Returns & Refunds", href: "/returns" },
+        { label: "FAQs", href: "/faqs" },
+        { label: "My Account", href: "/account" },
+    ],
+    "COMPANY": [
+        { label: "About Us", href: "/about" },
+        { label: "Investor Relation", href: "/investor-relation" },
+        { label: "Careers", href: "/careers" },
+        { label: "Gift Vouchers", href: "/gift-vouchers" },
+        { label: "Community Initiatives", href: "/community" },
+        
+    ],
+    "MORE INFO": [
+        { label: "Privacy Policy", href: "/privacy" },
+        { label: "Sitemap", href: "/sitemap" },
+        { label: "Get Notified", href: "/get-notified" },
+        { label: "Blogs", href: "/blogs" },
+    ],
+    "STORE NEAR ME": [
+        { label: "Mumbai", href: "/stores/mumbai" },
+        { label: "Pune", href: "/stores/pune" },
+        { label: "Bangalore", href: "/stores/bangalore" },
+        { label: "Hubbali", href: "/stores/hubbali" },
+        { label: "Surat", href: "/stores/surat" },
+        { label: "Vadodara", href: "/stores/vadodara" },
+        { label: "Navsari", href: "/stores/navsari" },
+        { label: "Gandhinagar", href: "/stores/gandhinagar" },
+        { label: "Ludhiana", href: "/stores/ludhiana" },
+        { label: "Bathinda", href: "/stores/bathinda" },
+        { label: "Kolkata", href: "/stores/kolkata" },
+        { label: "Hyderabad", href: "/stores/hyderabad" },
+        { label: "Goa", href: "/stores/goa" },
+        { label: "Indore", href: "/stores/indore" },
+        { label: "Jammu", href: "/stores/jammu" },
+        { label: "Chennai", href: "/stores/chennai" },
+        { label: "Bhopal", href: "/stores/bhopal" },
+        { label: "Delhi", href: "/stores/delhi" },
+        { label: "New Delhi", href: "/stores/new-delhi" },
+        { label: "Jodhpur", href: "/stores/jodhpur" },
+        { label: "Rajkot", href: "/stores/rajkot" },
+        { label: "Raipur", href: "/stores/raipur" },
+        { label: "Lucknow", href: "/stores/lucknow" },
+        { label: "Gurgaon", href: "/stores/gurgaon" },
+        { label: "Prayagraj", href: "/stores/prayagraj" },
+        { label: "Kozhikode", href: "/stores/kozhikode" },
+        { label: "Mohali", href: "/stores/mohali" },
+        { label: "Dehradun", href: "/stores/dehradun" },
+        
+
+    ],
+};
+export default footerLinks;

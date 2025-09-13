@@ -10,7 +10,10 @@ import HeartIcon from '../logo/heart-regular-full.svg';
 
 export default function Header() {
     return (
-        <>
+        <>  
+        <div className='falseHeader'>
+
+        </div>
             <div className='header'>
 
                 <div className='leftSubHeader'>
