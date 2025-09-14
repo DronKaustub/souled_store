@@ -7,7 +7,7 @@
     height:auto;
     display: flex;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 20px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -83,5 +83,133 @@
 .footer-list button:hover {
   color:  blue;
   background-color: transparent ;
+}
+.returnFooter{
+    display: flex;
+    align-items: top;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+.returnFooter h2{
+    font-size: medium;
+    font-weight: 100;
+    color: #58595b;
+    
+}
+
+.footerIcon1 {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    color: #58595b;
+    padding: 2px 2px;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+}
+.footerIcon2 {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    color: #58595b;
+    padding: 4px 4px;
+    border: 1px solid #58595b;
+    border-radius: 50%;
+}
+.downloadAppFooter{
+    height:60px;
+  
+    color: white;
+    margin-bottom: 10px;
+
+}
+.downloadAppFooter h2{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    font-weight: 600;
+    color: #58595b;
+}
+
+.googleAppFooter{
+    display: flex;
+    padding: 2px;
+    justify-content: end;
+    height: 40px;
+}
+.appleAppFooter{
+    display: flex;
+    padding: 2px;
+    justify-content: start;
+    height: 40px;
+}
+.socialIconFooter{
+    align-items: center;
+}
+.socialIconFooter h3{
+    color: #58595b;
+    font-size: small ;
+    font-weight: 300;
+    padding-right: 6px;
+}
+
+.socialIconFooterCol{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+.social-icon {
+  cursor: pointer;
+  transition: transform 0.3s;
+  width: auto;
+}
+
+/* trigger bounce once on hover */
+.social-icon:hover {
+transform: translateY(-5px);
+}
+.bottomBoxFooter{
+    gap: 0px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    border-top: 0.5px solid #58595b69;
+    border-right:0.5px solid #58595b69 ;
+    border-left:0.5px solid #58595b69 ;
+}
+.bottomBoxFooter h3{
+    font-size: small;
+    padding: 10px 10px;
+    margin: 0px;
+    display: flex;
+    border-bottom: 0.5px solid #58595b69;
+    cursor: pointer;
+}
+
+.paymentAndDeliveryFooter{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+.paymentMethod{
+    display: flex;
+    justify-content: start;
+    height: 80px;
+    
+}
+.deliveryMethod{
+    display: flex;
+    justify-content: start;
+    height: 30px;   
+}
+
+.paymentAndDeliveryFooter h3{
+    font-size: medium;
+    font-weight: 200;
+    color: #58595b;
 }
 
